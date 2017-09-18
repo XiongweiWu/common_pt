@@ -2534,6 +2534,8 @@ layer {
     bottom: "labels"
     top: "loss_cls"
     loss_weight: 1
+    propagate_down: 1
+    propagate_down: 0
 }
 
 layer {
